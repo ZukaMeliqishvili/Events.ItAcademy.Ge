@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyConfirmed" xml:space="preserve">
+    <value>ღონისძიება უკვე დადასტურებულია</value>
+  </data>
+  <data name="AlreadyStarted" xml:space="preserve">
+    <value>ღონისძიება უკვე დაიწყო</value>
+  </data>
+  <data name="AlreadyUsed" xml:space="preserve">
+    <value>ელფოსტა ან მომხმარებლის სახელი უკვე გამოიყენება</value>
+  </data>
+  <data name="DescriptionLength" xml:space="preserve">
+    <value>აღწერილობის სიგრძე უნდა იყოს 10-დან 200-მდე</value>
+  </data>
+  <data name="EmptyDescription" xml:space="preserve">
+    <value>აღწერა არ შეიძლება იყოს ცარიელი</value>
+  </data>
+  <data name="EmptyEndDate" xml:space="preserve">
+    <value>ღონისძიების დასრულების თარიღი არ შეიძლება იყოს ცარიელი</value>
+  </data>
+  <data name="EmptyObject" xml:space="preserve">
+    <value>ობიექტი არ შეიძლება იყოს ცარიელი</value>
+  </data>
+  <data name="EmptyStartDate" xml:space="preserve">
+    <value>ღონისძიების დაწყების თარიღი არ შეიძლება იყოს ცარიელი</value>
+  </data>
+  <data name="EmptyTitle" xml:space="preserve">
+    <value>სათაური არ შეიძლება იყოს ცარიელი</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>ღონისძიება ვერ მოიძებნა მოცემული ID-ით</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>თარიღი არასწორია</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>გთხოვთ, შეიყვანოთ სწორი ელფოსტის მისამართი</value>
+  </data>
+  <data name="InvalidLogin" xml:space="preserve">
+    <value>არასწორი შესვლის მცდელობა</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>გთხოვთ, შეიყვანოთ სწორი პაროლი</value>
+  </data>
+  <data name="InvalidUsername" xml:space="preserve">
+    <value>გთხოვთ, შეიყვანოთ სწორი მომხმარებლის სახელი</value>
+  </data>
+  <data name="NoUserFound" xml:space="preserve">
+    <value>მოცემული ID-ით მომხმარებელი ვერ მოიძებნა</value>
+  </data>
+  <data name="NumberOfTickets" xml:space="preserve">
+    <value>ბილეთების რაოდენობა უნდა იყოს 0-ზე მეტი</value>
+  </data>
+  <data name="OutOfTickets" xml:space="preserve">
+    <value>ყველა ბილეთი გაყიდულია</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>ბილეთების ფასი უნდა იყოს 1-ზე მეტი ან ტოლი</value>
+  </data>
+  <data name="RegisterProblem" xml:space="preserve">
+    <value>თქვენი ანგარიშის რეგისტრაციისას წარმოიშვა პრობლემა</value>
+  </data>
+  <data name="StartdateMustBeHigher" xml:space="preserve">
+    <value>ღონისძიების დაწყების თარიღი არ შეიძლება იყოს ღონისძიების დასრულების თარიღზე მეტი</value>
+  </data>
+  <data name="TicketAlreadyBooked" xml:space="preserve">
+    <value>ამ ღონისძიების ბილეთი უკვე დაჯავშნილია</value>
+  </data>
+  <data name="TitleLength" xml:space="preserve">
+    <value>სათაურის სიგრძე უნდა იყოს 5-30 შორის</value>
+  </data>
+  <data name="UpdateDateExceeded" xml:space="preserve">
+    <value>განახლების თარიღი გადაჭარბებულია</value>
+  </data>
+  <data name="UserDoesNotOwnEvent" xml:space="preserve">
+    <value>ღონისძიება არ ეკუთვნის მომხმარებელს</value>
+  </data>
+</root>
